@@ -1,5 +1,7 @@
 import java.util.*;
 
+//subarray means contiguous elements in an array
+
 public class longestSubarray {
     public static int longestSubarrayWithSumK(int[] arr, int k) {
         Map<Integer, Integer> map = new HashMap<>();
