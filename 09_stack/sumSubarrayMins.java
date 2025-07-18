@@ -46,3 +46,36 @@ class Main {
         System.out.println("Sum of subarray minimums: " + sumSubarrayMins(arr)); // Output: 17
     }
 }
+
+
+
+
+
+
+
+
+
+//Brute force approach
+// import java.util.*;
+
+// class Main {
+//     public static int sumSubarrayMins(int[] arr) {
+//         int n = arr.length;
+//         int sum = 0;
+        
+//         for (int i = 0; i < n; i++) {
+//             int min = arr[i];
+//             for (int j = i; j < n; j++) {
+//                 min = Math.min(min, arr[j]);
+//                 sum += min;
+//             }
+//         }
+        
+//         return sum;
+//     }
+
+//     public static void main(String[] args) {
+//         int[] arr = {3, 1, 2, 4};
+//         System.out.println("Sum of Subarray Minimums (Brute Force): " + sumSubarrayMins(arr));
+//     }
+// }
