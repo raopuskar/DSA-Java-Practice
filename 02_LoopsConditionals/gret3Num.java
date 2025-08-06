@@ -34,3 +34,5 @@ class evenOdd{
         sc.close();
     }
 }
+
+// other best way to find greatest and second greatest number
