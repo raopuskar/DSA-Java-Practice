@@ -6,7 +6,8 @@ public class reverseNum {
         int num = sc.nextInt();
         int reverse = 0;
         while(num != 0){
-            int lastDgt = num % 10;
+            int lastDgt = num % 10;  // 123%10 = 3
+                                    // 12%10 = 2
             reverse = reverse*10 + lastDgt;         
             num /= 10;  //remove last degit
         }
