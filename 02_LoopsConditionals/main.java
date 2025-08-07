@@ -36,3 +36,26 @@ class evenOdd{
 }
 
 // other best way to find greatest and second greatest number
+// import java.util.*;
+
+// public class main{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+        
+//         int n = sc.nextInt();
+//         int[] arr = new int[n];
+//         System.out.print("Enter the first number:");
+//         arr[0] = sc.nextInt();
+//         System.out.print("Enter the second number:");
+//         arr[1] = sc.nextInt();
+//         System.out.print("Enter the third number:");
+//         arr[2] = sc.nextInt();
+        
+//         Arrays.sort(arr);
+        
+//         System.out.println("First Greates element is " + arr[2]);
+//         System.out.print("Second Greates element is " + arr[1]);
+        
+//         sc.close();
+//     }
+// }

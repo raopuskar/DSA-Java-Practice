@@ -9,7 +9,7 @@ public class factorial {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int result = Factorial(3);
+        int result = Factorial(5);
         System.out.println("Factorial of " + 3 + " is: " + result);
         input.close();
     }
