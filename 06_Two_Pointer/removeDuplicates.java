@@ -1,5 +1,5 @@
 public class removeDuplicates {
-    public static int removeDuplicates(int[] nums) {
+    public static int removeDuplicatess(int[] nums) {
         if (nums.length == 0) return 0;
 
         int idx = 1; // Index for placing next unique element
@@ -14,7 +14,7 @@ public class removeDuplicates {
 
     public static void main(String[] args) {
         int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-        int k = removeDuplicates(nums);
+        int k = removeDuplicatess(nums);
 
         System.out.println("Unique elements count: " + k);
         System.out.print("Modified array: ");

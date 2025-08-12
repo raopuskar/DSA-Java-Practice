@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class twoSum {
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[] twoSumm(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>(); // value -> index
 
         for (int i = 0; i < nums.length; i++) {
@@ -31,7 +31,7 @@ public class twoSum {
         System.out.print("Enter target: ");
         int target = sc.nextInt();
 
-        int[] result = twoSum(nums, target);
+        int[] result = twoSumm(nums, target);
         if (result.length == 2)
             System.out.println("Indices: " + result[0] + ", " + result[1]);
         else
