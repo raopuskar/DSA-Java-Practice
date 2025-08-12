@@ -1,5 +1,5 @@
-class Main {
-    public static int maxSubarraySum(int[] arr) {
+class PrefixSumArr {
+    public static int maxSubarraySumm(int[] arr) {
         int Sum = 0;
         int maxSum = arr[0];
 
@@ -19,7 +19,7 @@ class Main {
 
     public static void main(String[] args) {
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        int result = maxSubarraySum(nums);
+        int result = maxSubarraySumm(nums);
         System.out.println("Maximum subarray sum: " + result);
     }
 }
