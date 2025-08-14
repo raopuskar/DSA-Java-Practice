@@ -1,5 +1,6 @@
+import java.util.ArrayList;
 class leaderOfArray {
-    public ArrayList<Integer> leaders(int[] nums) {
+    public static ArrayList<Integer> leaders(int[] nums) {
         int n = nums.length;
         ArrayList<Integer> result = new ArrayList<>();
 
@@ -18,5 +19,15 @@ class leaderOfArray {
 
         return result;
     }
-    
+    public static void main(String[] args) {
+        int[] nums = {16, 17, 4, 3, 5, 2}; // Example input
+        ArrayList<Integer> leaders = leaders(nums);
+
+        System.out.print("Leaders in the array: ");
+        for (int leader : leaders) {
+            System.out.print(leader + " ");
+        }
+    }
+
+
 }
