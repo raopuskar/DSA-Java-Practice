@@ -1,5 +1,6 @@
 import java.util.*;
-
+// This code calculates the power of a number using recursion
+// It takes two integers as input: the base and the exponent
 class recPower {
     public static int power(int a,int b){
         if(b==0) return 1;
