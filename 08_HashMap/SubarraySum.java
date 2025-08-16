@@ -30,49 +30,49 @@ public class SubarraySum {
 //So for optimal solution, we can use a HashMap to store the cumulative sum and its frequency.
 // This allows us to find the number of subarrays with sum k in O(n) time
 
-import java.util.*;
+// import java.util.*;
 
-public class Main {
-    public static int countSubarraysWithSumK(int[] nums, int k) {
-        Map<Integer, Integer> prefixMap = new HashMap<>();
-        prefixMap.put(0, 1); // base case for sum = k at beginning
+// public class Main {
+//     public static int countSubarraysWithSumK(int[] nums, int k) {
+//         Map<Integer, Integer> prefixMap = new HashMap<>();
+//         prefixMap.put(0, 1); // base case for sum = k at beginning
 
-        int sum = 0;
-        int count = 0;
+//         int sum = 0;
+//         int count = 0;
 
-        for (int num : nums) {
-            sum += num;
+//         for (int num : nums) {
+//             sum += num;
 
-            if (prefixMap.containsKey(sum - k)) {
-                count += prefixMap.get(sum - k);
-            }
+//             if (prefixMap.containsKey(sum - k)) {
+//                 count += prefixMap.get(sum - k);
+//             }
 
-            prefixMap.put(sum, prefixMap.getOrDefault(sum, 0) + 1);
-        }
+//             prefixMap.put(sum, prefixMap.getOrDefault(sum, 0) + 1);
+//         }
 
-        return count;
-    }
+//         return count;
+//     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter length of array: ");
-        int n = sc.nextInt();
-        int[] nums = new int[n];
+//         System.out.print("Enter length of array: ");
+//         int n = sc.nextInt();
+//         int[] nums = new int[n];
 
-        System.out.println("Enter array elements:");
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextInt();
-        }
+//         System.out.println("Enter array elements:");
+//         for (int i = 0; i < n; i++) {
+//             nums[i] = sc.nextInt();
+//         }
 
-        System.out.print("Enter value of k: ");
-        int k = sc.nextInt();
+//         System.out.print("Enter value of k: ");
+//         int k = sc.nextInt();
 
-        int result = countSubarraysWithSumK(nums, k);
-        System.out.println("Number of subarrays with sum " + k + ": " + result);
-    }
-}
-// This code uses a HashMap to efficiently count the number of contiguous subarrays that sum to a given value k.
+//         int result = countSubarraysWithSumK(nums, k);
+//         System.out.println("Number of subarrays with sum " + k + ": " + result);
+//     }
+// }
+// // This code uses a HashMap to efficiently count the number of contiguous subarrays that sum to a given value k.
 // It has a time complexity of O(n) and is suitable for larger arrays compared to the brute-force approach.
 // The main method allows user input for the array and the target sum k, and then prints the count of subarrays that meet the criteria.
 // The code is structured to be efficient and user-friendly, making it easy to test with different inputs.
