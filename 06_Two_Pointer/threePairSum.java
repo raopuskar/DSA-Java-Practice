@@ -2,7 +2,7 @@ import java.util.*;
 
 class Main {
     public static boolean threePairWithSum(int[] arr, int target) {
-        Arrays.sort(arr); // Optional if input is unsorte
+        Arrays.sort(arr); // Optional if input is unsorted
         int n = arr.length;
         for (int i = 0; i < n - 2; i++) {
             for (int j = i + 1; j < n - 1; j++) {
@@ -33,3 +33,10 @@ class Main {
         sc.close();
     }
 }
+
+//example Input:
+// Enter the length of array: 5
+// Enter the array elements:
+// 1 2 3 4 5
+// Example Output:
+// Pair with sum 15 exists: false
