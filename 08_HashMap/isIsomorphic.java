@@ -48,3 +48,9 @@ public class isIsomorphic {
         sc.close();
     }
 }
+
+//Example Input:
+// Enter first string: egg  
+// Enter second string: add
+// Example Output:
+// Strings are isomorphic.

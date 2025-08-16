@@ -1,5 +1,14 @@
 import java.util.*;
 
+//Example Input:
+// Enter size of array: 5
+// Enter array elements:
+// 1 2 3 4 5
+// Enter value of k: 3
+// Example Output:
+// Maximum sum of subarray of size 3 is: 12
+
+
 class sliding {
     public static int maxSumSubarray(int[] arr, int k) {
         int n = arr.length;

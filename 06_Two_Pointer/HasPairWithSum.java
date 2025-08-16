@@ -29,3 +29,10 @@ class Main {
         sc.close();
     }
 }
+
+//Example Input:
+// Enter the length of array: 5
+// Enter the array elements:
+// 1 2 3 4 5
+// Example Output:
+// Pair with sum 15 exists: false
