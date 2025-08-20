@@ -19,3 +19,26 @@ class Reverse {
         sc.close();
     }
 }
+
+
+
+
+//this using manual
+// import java.util.*;
+// class Solution {
+//     public static String reverseString(String s) {
+//         StringBuilder sb = new StringBuilder(s);
+//         int n = s.length();
+        
+//         for (int i = 0; i < n / 2; i++) {
+//             char temp = sb.charAt(i);
+//             sb.setCharAt(i, sb.charAt(n - i - 1));
+//             sb.setCharAt(n - i - 1, temp);
+//         }
+        
+//         //sb.reverse();
+//         s = sb.toString();
+        
+//         return s;
+//     }
+// }
