@@ -25,7 +25,6 @@ class Solution {
 
 
 // Examples:
-
 // Input: s = "geeksforgeeks"
 // Output: 'f'
 // Explanation: In the given string, 'f' is the first character in the string which does not repeat.
