@@ -23,7 +23,7 @@ class Solution {
 }
 
 
-
+//Below are the examples
 // Examples:
 // Input: s = "geeksforgeeks"
 // Output: 'f'
