@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class ReverseSentense {
     public static void reverseWords(String sentence) {  //Eg "Hello World!" -> "World! Hello"
         String[] words = sentence.trim().split("\\s+"); // .trim remove leading and trailing spaces like " Hello world!" -> "Hello World!", .split("\\s+") splits by whitespace and it Splits on 1 or more spaces. eg ["Hello", "World!"]
         StringBuilder reversed = new StringBuilder();
