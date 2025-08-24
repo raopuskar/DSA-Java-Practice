@@ -24,3 +24,13 @@ class RemoveDuplicate {
         sc.close();
     }
 }
+
+
+//or
+// User function Template for Java
+// 
+
+// Examples:
+// Input: s = "geeksforgeeks"
+// Output: "gksfor"
+// Explanation: The first non-repeating character in the string is 'f'.
