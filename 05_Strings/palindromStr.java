@@ -24,3 +24,16 @@ class Palindrom {
         sc.close();
     }
 }
+
+
+
+//other easy way through StringBuilder
+// class Solution {
+//     boolean isPalindrome(String s) {
+        
+        
+//         String str = new StringBuilder(s).reverse().toString();
+        
+//         return (s.equals(str)? true : false);
+//     }
+// }
