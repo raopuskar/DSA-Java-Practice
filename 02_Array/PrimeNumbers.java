@@ -64,3 +64,44 @@ public class PrimeNumbers {
 //         sc.close();
 //     }
 // }
+
+
+
+
+//Find total number of prime numbers from 1 to N for large value of N like 10^6 or 10^7
+// import java.util.*;
+
+// class Solution {
+//     public int countPrimes(int n) {
+//         if (n <= 2) return 0;
+
+//         boolean[] isPrime = new boolean[n];
+//         Arrays.fill(isPrime, true);
+//         isPrime[0] = false;
+//         isPrime[1] = false;
+
+//         // mark multiples as non-prime
+//         for (int i = 2; i * i < n; i++) {
+//             if (isPrime[i]) {
+//                 for (int j = i * i; j < n; j += i) {
+//                     isPrime[j] = false;
+//                 }
+//             }
+//         }
+
+//         int count = 0;
+//         for (int i = 2; i < n; i++) {
+//             if (isPrime[i]) count++;
+//         }
+
+//         return count;
+//     }
+//     public static void main(String[] args) {
+//         Solution solution = new Solution();
+//         int n = 1000000;
+//         int result = solution.countPrimes(n);
+//         System.out.println(result); // Output: 78498
+//     }
+// }
+
+
