@@ -24,3 +24,9 @@ class largestWordOfSent {
         sc.close();
     }
 }
+
+
+// Example:
+// Input: "The quick brown fox jumps over the lazy dog"
+// Output: "jumps"
+// Explanation: The largest word in the sentence is "jumps" with 5 letters.
