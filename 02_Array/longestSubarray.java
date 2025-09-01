@@ -22,3 +22,8 @@ class longestSubarray {
         System.out.println("Length of longest subarray with sum " + k + ": " + result);
     }
 }
+
+// Examples:
+// Input: nums = [1,2,3,4,5], k = 9
+// Output: 3
+// Explanation: The subarray [2,3,4] has the sum 9 and length 3.
