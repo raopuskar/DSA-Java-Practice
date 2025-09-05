@@ -19,7 +19,7 @@ class Main {
         int[] arr = {1, 2, 2, 3, 3, 3, 4};
         int n = arr.length;
 
-        int newLength = removeDuplicate(arr, n);
+        int newLength = removeDuplicateArray(arr, n);
         System.out.print("Array after removing duplicates: ");
         for (int i = 0; i < newLength; i++) {
             System.out.print(arr[i] + " ");
