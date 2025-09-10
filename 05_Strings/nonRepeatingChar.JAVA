@@ -33,4 +33,4 @@ class Solution {
 // Explanation: In the given string, 'e' is the only character in the string which does not repeat.
 // Input: s = "aabbccc"
 // Output: '$'
-// Explanation: All the characters in the given string are repeating.
+// Explanation: All the characters in the given string are repeating.  So, the output is '$'.
