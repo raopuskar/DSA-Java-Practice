@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 class Solution {
     public long sum_of_gp(long n, long a, long r) {
