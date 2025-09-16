@@ -29,3 +29,8 @@ class isAmstrong {
         sc.close();
     }
 }
+
+// Examples:
+// Input: num = 153
+// Output: "153 is an Armstrong number."
+// Explanation: 1^3 + 5^3 + 3^3 = 153
