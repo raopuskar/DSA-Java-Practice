@@ -35,3 +35,8 @@ class longestCommonPrefix {
 // Examples:
 // Input: strs = ["flower","flow","flight"]
 // Output: "fl"
+// dry run
+// prefix = "flower"
+// i=1 -> strs[1] = "flow" -> prefix = "flowe" -> "flow" -> "flo" -> "fl"
+// i=2 -> strs[2] = "flight" -> prefix = "fl"
+
