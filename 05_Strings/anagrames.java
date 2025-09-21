@@ -39,3 +39,9 @@ class Anagrams {
         sc.close();
     }
 }
+
+
+//Examples:
+// Input: str1 = "listen", str2 = "silent"
+// Output: true
+// Explanation: "listen" and "silent" contain the same characters in different orders.
