@@ -26,3 +26,6 @@ public class FibonacciTillN {
         return c;
     }
 }
+
+//Example input 7
+//output 0 1 1 2 3 5 8 13

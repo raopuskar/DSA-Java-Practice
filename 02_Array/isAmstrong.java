@@ -34,3 +34,7 @@ class isAmstrong {
 // Input: num = 153
 // Output: "153 is an Armstrong number."
 // Explanation: 1^3 + 5^3 + 3^3 = 153
+
+// Input: num = 1234
+// Output: "1234 is NOT an Armstrong number."
+// Explanation: 1^4 + 2^4 + 3^4 + 4^4 = 354 != 1234

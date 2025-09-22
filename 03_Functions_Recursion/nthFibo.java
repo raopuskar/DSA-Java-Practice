@@ -14,3 +14,7 @@ class nthFibo {
         sc.close();
     }
 }
+
+
+// Example input: 7
+// Output: Fibonacci number at position 7 is: 13

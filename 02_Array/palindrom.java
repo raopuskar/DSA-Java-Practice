@@ -23,3 +23,7 @@ class palindrom {
         sc.close();
     }
 }
+
+
+//example input 121
+//output true
