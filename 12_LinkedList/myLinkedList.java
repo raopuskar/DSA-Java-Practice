@@ -138,3 +138,9 @@ public class myLinkedList {
         System.out.println("Length: " + list.getLength()); // 3
     }
 }
+
+// Explanation:
+// 1. The Node class represents each element in the linked list, containing data and a pointer to the next node.
+// 2. The MyLinkedList class manages the linked list with a head pointer and provides methods for insertion, deletion, printing, and length calculation.        
+  
+
