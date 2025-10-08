@@ -31,3 +31,8 @@ public class checkDuplicate {
         }
     }
 }
+
+//Explanation:
+// 1. We sort the input array to ensure that duplicates are adjacent.
+// 2. During the backtracking process, we skip over duplicates by checking if the current element is the same as the previous one at the same tree level.
+// 3. This ensures that we only generate unique subsets.
