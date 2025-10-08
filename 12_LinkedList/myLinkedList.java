@@ -141,6 +141,7 @@ public class myLinkedList {
 
 // Explanation:
 // 1. The Node class represents each element in the linked list, containing data and a pointer to the next node.
-// 2. The MyLinkedList class manages the linked list with a head pointer and provides methods for insertion, deletion, printing, and length calculation.        
+// 2. The MyLinkedList class manages the linked list with a head pointer and provides methods for insertion, deletion, printing, and length calculation.   
+// 3. The main method demonstrates the functionality of the linked list by performing various operations and printing the results.     
   
 
