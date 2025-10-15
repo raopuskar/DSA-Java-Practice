@@ -40,3 +40,5 @@ public class phoneNumCom {
         System.out.println("Combinations: " + combinations);
     }
 }
+
+// This code generates all possible letter combinations that the number could represent on a phone keypad.
