@@ -16,3 +16,6 @@ public class missingNumber {
         System.out.println("The missing number is: " + missingNumber);
     }
 }
+
+
+//This quickly finds the missing number in an array containing n distinct numbers from 0 to n.  
