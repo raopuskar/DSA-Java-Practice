@@ -23,3 +23,6 @@ class Solution {
         System.out.println("All elements from " + A + " to " + B + " are present: " + result);
     }
 }
+
+
+//This checks if all elements in the range [A, B] are present in the given array.
