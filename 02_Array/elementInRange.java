@@ -26,3 +26,4 @@ class Solution {
 
 
 //This checks if all elements in the range [A, B] are present in the given array.
+//This is a java code 
