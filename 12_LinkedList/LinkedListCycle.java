@@ -9,6 +9,8 @@
  *     }
  * }
  */
+
+ //This is faster approach using Floyd's Tortoise and Hare algorithm
 public class LinkedListCycle {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head;
