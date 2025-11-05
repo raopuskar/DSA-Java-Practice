@@ -21,6 +21,7 @@ class ransomNote { //LeetCode Problem 383
 
 // Other way to solve the problem is by using HashMap
 
+
 // import java.util.HashMap;
 // class Solution {
 //     public boolean canConstruct(String ransomNote, String magazine) {
